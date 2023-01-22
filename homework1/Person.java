@@ -19,4 +19,12 @@ public class Person {
         this.fullName = fullName;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "fullName='" + fullName + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
